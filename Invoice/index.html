@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Invoice</title>
+</head>
+
+<body>
+    <div class="page" size="A4">
+        <div>
+            <img src="logo.png" alt="logo">
+            <h2 style="text-align: center; line-height: 3px;">Tax Invoice</h2>
+            <h4 style="text-align: right; ">Original for Recipient</h4>
+        </div><br>
+
+        <div class="grid-container">
+            <div class="grid-item">Supplier:<br>
+                <b> CloudZen Software Labs Pvt.Ltd.</b><br>
+                State:jharkhand<br>
+                State Code:JH - 20<br>
+                GSTIN:<b>20QXOCC9424D1Z5</b></div>
+
+            <div class="grid-item"> Details of Invoice:<br>
+                Invoice Number:<b> 17-18/JH/97</b><br>
+                Invoice Date:<b> July 26,2017</b><br>
+                Invoive Amount:<b> INR 47,925.00</b><br>
+                Reverse charge applicable:No</div>
+
+            <div class="grid-item">Details of Buyer (Bill To): <br>
+                <b> Cipla Ltd</b> <br>
+                State: Rajasthan - 757166<br>
+                State Code: RJ - 08<br>
+                GSTIN:<b>08AKOCX6439P1ZL</b>
+
+            </div>
+            <div class="grid-item">Details of Consignee (Shipped To):<br>
+                <b>Cipla Ltd</b><br>
+                State: Rajasthan - 757166<br>
+                State Code: RJ - 08<br>
+                GSTIN:<B>08AKOCX6349P1ZL</B>
+            </div>
+        </div><br>
+        <div>
+            <table>
+                <tr>
+                    <td class="bold" rowspan="2"> # </td>
+                    <td class="center" colspan="3">Description</td>
+                    <td class="center" rowspan="2">Taxable Value</td>
+                    <td class="center" colspan="2">IGST</td>
+                    <td class="center" rowspan="2">Total</td>
+                </tr>
+                <tr>
+                    <td class="center">HSN/SAC</td>
+                    <td class="center">Qty</td>
+                    <td class="center">Unit Rate</td>
+
+                    <td class="center">Rate</td>
+                    <td class="center">Amount</td>
+                </tr>
+                <tr>
+                    <!--1-->
+                    <td rowspan="2"> 1 </td>
+                    <td class="left" colspan="3">OTHR BLCHD WOVN FBRCS WGHNG > 200 G/M2</td>
+                    <td rowspan="2">12,096.00</td>
+                    <td rowspan="2">18.00</td>
+                    <td rowspan="2">2,177.28</td>
+                    <td rowspan="2">14,273.28</td>
+                </tr>
+                <tr>
+                    <td class="center">521222</td>
+                    <td class="center">9.00 GMS</td>
+                    <td class="center">1,344.00</td>
+                </tr>
+
+                <tr>
+                    <!--2-->
+                    <td rowspan="2"> 2 </td>
+                    <td class="left" colspan="3">OTHR BEANS DRIED & SHLD</td>
+                    <td rowspan="2">7,742.00</td>
+                    <td rowspan="2">18.00</td>
+                    <td rowspan="2">1,393.56</td>
+                    <td rowspan="2">9,135.56</td>
+                </tr>
+                <tr>
+                    <td class="center">071339</td>
+                    <td class="center">7.00 UNT</td>
+                    <td class="center">1,106.00</td>
+                </tr>
+
+                <tr>
+                    <!--3-->
+                    <td rowspan="2"> 3 </td>
+                    <td class="left" colspan="3">GLAZIERS & GRAFTING PUTY, RESIN ELEMENTS NON<br>RFRCTRY SRFCNG PRPN FR
+                        FLOORS, WALL ETC</td>
+                    <td rowspan="2">9,345.00</td>
+                    <td rowspan="2">28.00</td>
+                    <td rowspan="2">2616.60</td>
+                    <td rowspan="2">11,961.60</td>
+                </tr>
+                <tr>
+                    <td class="center">321490</td>
+                    <td class="center">7.00 CCM</td>
+                    <td class="center">1,335.00</td>
+                </tr>
+
+                <tr>
+                    <!--4-->
+                    <td rowspan="2"> 4 </td>
+                    <td class="left" colspan="3">OTHER, FRESH OR CHILLED</td>
+                    <td rowspan="2">7,567.00</td>
+                    <td rowspan="2">28.00</td>
+                    <td rowspan="2">2118.76</td>
+                    <td rowspan="2">9,685.76</td>
+                </tr>
+                <tr>
+                    <td class="center">020735</td>
+                    <td class="center">7.00 BTL</td>
+                    <td class="center">1,081.00</td>
+                </tr>
+
+                <tr>
+                    <!--5-->
+                    <td rowspan="2"> 5 </td>
+                    <td class="left" colspan="3">OTHER COSMETIC & TOILT PRPN N E S</td>
+                    <td rowspan="2">2,241.00</td>
+                    <td rowspan="2">28.00</td>
+                    <td rowspan="2">627.48</td>
+                    <td rowspan="2">2,868,48</td>
+                </tr>
+                <tr>
+                    <td class="center">33079090</td>
+                    <td class="center">3.00 MLT</td>
+                    <td class="center">747.00</td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">Total Amounts (INR)</td>
+                    <td class="bold">38,991.00</td>
+                    <td colspan="2" class="bold">8,933.68</td>
+                    <td class="bold">47,927.68</td>
+                </tr>
+
+                <tr>
+                    <td colspan="7">Rounding</td>
+                    <td>0.32</td>
+                </tr>
+
+                <tr>
+                    <td colspan="8">Invoice Total (in figures): <span class="bold">INR 47,925.00</span></td>
+                </tr>
+
+                <tr>
+                    <td colspan="8">Invoice Total amount in words: Forty seven thousand, nine hundred and twenty five
+                    </td>
+                </tr>
+            </table><br>
+
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <td class="left" colspan="2">You have not specified any notes that should appear in the Invoice.
+                        Please customize this information in the <br> following page <a
+                            href="#">http://my.gstzen.in/~demo/a/gstins/1/update/</a>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td class="left align"> www.cloudzen.in<br>CIN: ABCD....</td>
+                    <td class="left">E&OE <br><br><br><br><br><br>Authorized Signatory<br>CloudZen Software Labs Pvt.Ltd
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
